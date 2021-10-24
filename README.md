@@ -5,6 +5,9 @@
 ![Forks](https://img.shields.io/github/forks/tquangdo/aws-node-serverless-lambda-api-gw-dynamodb?color=f05340)
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-node-serverless-lambda-api-gw-dynamodb/issues/new)
 
+## reference
+[trungquandev](https://trungquandev.com/viet-mot-crud-api-su-dung-serverless-framework-dynamodb/)
+
 ## aws deploy
 1. `sls deploy`
 2. =>
