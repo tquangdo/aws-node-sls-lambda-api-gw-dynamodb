@@ -9,8 +9,14 @@
 [trungquandev](https://trungquandev.com/viet-mot-crud-api-su-dung-serverless-framework-dynamodb/)
 
 ## aws deploy
-1. `sls deploy`
-2. =>
+1. settting printenv
+```shell
+export AWS_ACCESS_KEY_ID=<your-key-here>
+export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
+printenv | grep AWS
+```
+2. `sls deploy`
+3. =>
 ```yml
 Serverless: Packaging service...
 Serverless: Excluding development dependencies...
