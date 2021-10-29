@@ -50,6 +50,22 @@ layers:
   None
 ```
 
+## API example
+```json
+* POST
+https://<endpoint>/dev/create
+{
+    "name": "meo mun cua DoTQ!!!",
+    "kind": "meo den may man"
+}
+* PUT
+https://<endpoint>/dev/cat/e915b880-34e6-11ec-8a6f-d774d07c09bc/update
+{
+    "name": "meo mun!!!",
+    "kind": "meo den may man"
+}
+```
+
 ## screenshots
 ![apigw](screenshots/apigw.png)
 ![dynamodb](screenshots/dynamodb.png)
