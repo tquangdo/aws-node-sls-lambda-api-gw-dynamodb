@@ -49,6 +49,14 @@ functions:
 layers:
   None
 ```
+## note
+1. `Uploading service crud-cats.zip file to S3` -> code uploaded into S3 bucket
+2. connect to DynamoDB:
+```js
+models/CatModel.js
+let Joi = require("joi"); //định nghĩa các Object Schema
+let dynamo = require("dynamodb");
+```
 
 ## API example
 ```json
