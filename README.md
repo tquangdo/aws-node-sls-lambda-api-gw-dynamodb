@@ -15,7 +15,11 @@ export AWS_ACCESS_KEY_ID=<your-key-here>
 export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
 printenv | grep AWS
 ```
-2. `sls deploy`
+2.
+```shell
+npm i serverless
+sls deploy
+```
 3. =>
 ```yml
 Serverless: Packaging service...
