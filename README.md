@@ -8,9 +8,9 @@
 ![overview](screenshots/overview.png)
 
 ## reference
-[trungquandev](https://trungquandev.com/viet-mot-crud-api-su-dung-serverless-framework-dynamodb/)
+  - [trungquandev](https://trungquandev.com/viet-mot-crud-api-su-dung-serverless-framework-dynamodb/)
 
-1. ## dynamodb
+## dynamodb
   - create tablename=`cats`
   - connect to DynamoDB:
   ```js
@@ -21,19 +21,19 @@
   this.tableName = "cat";
   ```
 
-1. ## deploy
-  1) settting printenv
+## deploy
+  - a/settting printenv
   ```shell
   export AWS_ACCESS_KEY_ID=<your-key-here>
   export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
   printenv | grep AWS
   ```
-  2) `sls deploy` will create relative AWS services: cloudformation, lambda, api gw...
+  - b/`sls deploy` will create relative AWS services: cloudformation, lambda, api gw...
   ```shell
   npm i serverless
   sls deploy
   ```
-  3) =>
+  - c/=>
   ```yml
   Serverless: Packaging service...
   Serverless: Excluding development dependencies...
@@ -67,10 +67,10 @@
     None
   ```
 
-1. ## note
+## note
   - `Uploading service crud-cats.zip file to S3` -> code uploaded into S3 bucket
 
-1. ## API example
+## API example
   ```json
   * POST
   https://<endpoint>/dev/create
