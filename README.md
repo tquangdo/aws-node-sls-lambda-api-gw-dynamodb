@@ -22,18 +22,18 @@
   ```
 
 1. ## deploy
-  1. settting printenv
+  1) settting printenv
   ```shell
   export AWS_ACCESS_KEY_ID=<your-key-here>
   export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
   printenv | grep AWS
   ```
-  2. `sls deploy` will create relative AWS services: cloudformation, lambda, api gw...
+  2) `sls deploy` will create relative AWS services: cloudformation, lambda, api gw...
   ```shell
   npm i serverless
   sls deploy
   ```
-  3. =>
+  3) =>
   ```yml
   Serverless: Packaging service...
   Serverless: Excluding development dependencies...
